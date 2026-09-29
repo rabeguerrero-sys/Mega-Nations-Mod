@@ -1,0 +1,415 @@
+[
+  {
+    "name": "Bavaria",
+    "leaderName": "Maximiliano I",
+    "adjective": ["Bávaro"],
+    "startBias": ["Hill", "Grassland"],
+    "startIntroPart1": "Salve, Maximiliano I, Elector de Baviera. Desde Múnich, la Atenas del Isar, vuestra corte cultivó las artes, las ciencias y la fe con el mismo esmero que las montañas y praderas bávaras cultivan el grano y el ganado.",
+    "startIntroPart2": "Elector, vuestro pueblo aguarda que la luz de Múnich vuelva a brillar sobre Europa. ¿Reconstruiréis la Atenas del Isar?",
+    "declaringWar": "Habéis agotado la paciencia del Elector. Que las armas bávaras hablen ahora.",
+    "attacked": "¡Insensatos! Baviera no olvida una afrenta.",
+    "defeated": "Las montañas son testigos de este fatidico día.",
+    "introduction": "Soy Maximiliano, Elector de Baviera. Que las artes y el comercio nos unan, o que las armas decidan.",
+    "neutralHello": "¿Qué asunto os trae a esta corte?",
+    "hateHello": "Hablad con cautela.",
+    "tradeRequest": "Este trato honra tanto a Baviera como a vuestro pueblo.",
+    "outerColor": [1, 138, 192],
+    "innerColor": [232, 232, 241],
+    "uniqueName": "La Atenas del Isar",
+    "uniques": [
+      "[+1 Food] from every [Pasture]",
+      "[+2 Culture] [in all cities]",
+      "[+10]% [Culture] [in all cities] <during a Golden Age>",
+      "[+1 Science, +1 Production] from every [Landmark]"
+    ],
+    "cities": [
+      "Múnich", "Regensburg", "Landshut", "Straubing", "Ingolstadt",
+      "Núremberg", "Augsburgo", "Rothenburg ob der Tauber", "Nördlingen", "Dinkelsbühl",
+      "Memmingen", "Lindau", "Würzburg", "Bamberg", "Freising",
+      "Passau", "Bayreuth", "Coburgo", "Ansbach", "Aschaffenburg"
+    ],
+    "spyNames": ["Ludwig", "Theresa", "Georg", "Amalie", "Karl", "Sophie", "Otto", "Elisabeth", "Friedrich", "Maria"]
+  }
+
+  {
+    "name": "Burgundy",
+    "leaderName": "Felipe III el Bueno",
+    "adjective": ["Borgoñón"],
+    "startBias": ["Coast"],
+    "startIntroPart1": "Salve, Felipe III el Bueno, Duque de Borgoña, señor de las tierras más ricas y refinadas de Europa. Bajo tu gobierno, la Corte de Borgoña se convirtió en el centro cultural y económico del norte de Europa, cuna de la pintura flamenca, la orfebrería y el comercio de paños. Fundaste la Orden del Toisón de Oro, y tu corte fue admirada y temida por reyes y emperadores por igual.",
+    "startIntroPart2": "Gran Duque, tu pueblo espera de nuevo tu mano firme y tu gusto exquisito para tejer una Borgoña que domine el comercio y las artes de toda Europa. ¿Harás brillar de nuevo a tu imperio a través de los tiempos?",
+    "declaringWar": "Vuestra insolencia ha agotado la paciencia de la Corte Dorada. Arderan por nuestros ejercitos.",
+    "attacked": "¡Osáis atacar al Ducado más rico de la cristiandad! Pagaréis caro este error.",
+    "defeated": "El Toisón de Oro se opaca hoy. Que la historia recuerde con justicia lo que Borgoña construyó.",
+    "introduction": "Sed bienvenido a la corte de Borgoña. Yo soy Felipe, y mis tierras son tan vastas como refinadas.",
+    "neutralHello": "Buen día tengáis.",
+    "hateHello": "¿Qué es lo que queréis ahora?",
+    "tradeRequest": "Mis mercaderes consideran que este trato os resultará más que favorable.",
+    "outerColor": [200, 16, 46],
+    "innerColor": [255, 215, 0],
+    "uniqueName": "La Corte Dorada",
+    "uniques": [
+      "[+1 Gold, +1 Culture] [in all cities connected to capital]",
+      "[-10]% Culture cost of adopting new Policies",
+     ],
+    "cities": [
+      "Bruselas", "Gante", "Brujas", "Dijon", "Amberes", "Lille", "Malinas", "Tournai",
+      "Lovaina", "Ypres", "Nassau", "Breda", "'s-Hertogenbosch", "Luxemburgo", "Besanzón",
+      "Dole", "Arras", "Saint-Omer", "Namur", "Utrecht"
+    ],
+    "spyNames": ["Guy", "Isabelle", "Antoine", "Marguerite", "Charolais", "Croÿ", "Jehan", "Odette", "Baldwin", "Colette"]
+  }
+
+  {
+    "name": "Caribbean Federation",
+    "leaderName": "José Julián Martí",
+    "adjective": ["Caribeño"],
+    "startBias": ["Coast", "Grassland"],
+    "startIntroPart1": "Salve, José Julián Martí, voz y espada de la Federación del Caribe. Hija del mar, nuestra tierra nació de la caña, el tabaco y las corrientes que unen sus islas en un solo destino.",
+    "startIntroPart2": "Maestro, el archipiélago aguarda de nuevo su unión. ¿Guiaréis a la Hija del Mar hacia su lugar entre las naciones?",
+    "declaringWar": "Estas islas no se arrodillan ante nadie. Que el mar decida vuestra suerte.",
+    "attacked": "¡Insensatos! El Caribe no olvida una afrenta.",
+    "defeated": "Las palmas seguirán en pie mucho después de este día.",
+    "introduction": "Soy Martí, voz de la Federación del Caribe. Que el comercio nos una, o que las armas decidan.",
+    "neutralHello": "¿Qué asunto os trae a estas costas?",
+    "hateHello": "Hablad con cautela, forastero.",
+    "tradeRequest": "Este trato honra tanto a estas islas como a vuestro pueblo.",
+    "outerColor": [56, 160, 174],
+    "innerColor": [132, 25, 25],
+
+    "uniqueName": "La Hija del Mar",
+    "uniques": [
+      "[+1 Gold, +1 Culture] from every [Fishing Boats]",
+      "[+1 Gold, +1 Food] from every [Plantation]"
+    ],
+    "cities": [
+      "La Habana", "Santiago de Cuba", "Camagüey", "San Juan", "Santo Domingo",
+      "Ponce", "Mayagüez", "Holguín", "Santa Clara", "Matanzas",
+      "Cienfuegos", "Trinidad", "Baracoa", "Pinar del Río", "Santiago de los Caballeros",
+      "Puerto Plata", "San Pedro de Macorís", "Arecibo", "Caguas", "Guantánamo"
+    ],
+    "spyNames": ["Máximo", "Mariana", "Antonio", "Rosa", "Carlos", "Dolores", "Ignacio", "Celia", "Gregorio", "Juana"]
+  }
+
+  {
+    "name": "Egyptian Eyalet",
+    "leaderName": "Ali Bey Al-Kabir",
+    "adjective": ["Egipcio"],
+    "startBias": ["Desert"],
+    "startIntroPart1": "Salve, Ali Bey Al-Kabir, señor de Umm al-Dunya, la Madre del Mundo. Desde El Cairo gobernáis el cruce entre tres continentes, donde el Nilo da vida al desierto y las caravanas se encuentran con los dhows del mar Rojo.",
+    "startIntroPart2": "Bey, vuestros mamelucos aguardan vuestra orden. ¿Devolveréis a Egipto su lugar como corazón del mundo?",
+    "declaringWar": "Habéis desafiado a Umm al-Dunya. Que el Nilo sea testigo de vuestro error.",
+    "attacked": "¡Insensatos! El desierto y el río no perdonan a los necios.",
+    "defeated": "Las pirámides han visto caer imperios más grandes que el vuestro. Recordadlo.",
+    "introduction": "Soy Ali Bey, señor de Egipto. Que el comercio nos una, o que el desierto os trague.",
+    "neutralHello": "¿Qué buscáis en la tierra del Nilo?",
+    "hateHello": "Hablad rápido, Khawaga.",
+    "tradeRequest": "Las caravanas del Nilo favorecen los tratos justos.",
+    "outerColor": [127, 121, 50],
+    "innerColor": [255, 214, 51],
+    "uniqueName": "Umm al-Dunya",
+    "uniques": [
+      "[+1 Science] from every [Market]",
+      "[+1 Production, +1 Food] from [River] tiles [in all cities]",
+      "[+2 Gold] from [Oasis] tiles [in all cities]"
+    ],
+    "cities": [
+      "El Cairo", "Alejandría", "Rosetta", "Damieta", "Mansura",
+      "Tanta", "Asiut", "Sohag", "Luxor", "Asuán",
+      "Suez", "Fayún", "Beni Suef", "Minya", "Qena",
+      "El Arish", "Gaza", "Jartum", "Suakin", "Massawa"
+    ],
+    "spyNames": ["Ibrahim", "Zainab", "Murad", "Amina", "Yusuf", "Layla", "Hassan", "Fatima", "Suleiman", "Nour"]
+  }
+
+  {
+    "name": "Scandinavia",
+    "leaderName": "Erik I de Kalmar",
+    "adjective": ["Escandinavo"],
+    "startBias": ["Tundra", "Hill"],
+    "startIntroPart1": "Salve, Erik I, soberano de Scandinavia. Bajo vuestra corona, Dinamarca, Noruega , Suecia y mas se unieron en un solo reino nórdico, templado por el hielo y el hierro, el fiordo y el mar.",
+    "startIntroPart2": "Rey, el Norte aguarda de nuevo su unión. ¿Forjaréis un reino tan lagom como fuerte?",
+    "declaringWar": "la paciencia del Norte es limitada. Que el hierro y el mar decidan.",
+    "attacked": "¡Insensatos! El Norte no olvida una afrenta.",
+    "defeated": "Los fiordos seguirán en pie mucho después de este día.",
+    "introduction": "Soy Erik, rey de la Unión de Kalmar. Que el comercio nos una, o que las armas decidan.",
+    "neutralHello": "¿Qué asunto os trae al Norte?",
+    "hateHello": "Hablad con cautela.",
+    "tradeRequest": "Este trato honra tanto al Norte como a vuestro pueblo.",
+    "outerColor": [44, 58, 77],
+    "innerColor": [212, 175, 55],
+    "uniqueName": "Lagom-hygge-Norgje",
+    "uniques": [
+      "[+1 Happiness, +1 Production, +1 Food] [in all cities connected to capital]",
+      "[+2 Production] from every [Iron]",
+      "[+2 Production] from every [Oil]",
+      "[+100]% [Strategic] resource production",
+      "[-10]% Production when constructing [Worker] units [in all cities]",
+      "[+10]% Production when constructing [Settler] units [in all cities]",
+    ],
+    "cities": [
+      "Nýkalmar", "Copenhague", "Estocolmo", "Oslo", "Reykjavík",
+      "Bergen", "Göteborg", "Malmö", "Århus", "Trondheim",
+      "Helsingør", "Uppsala", "Lund", "Midnattstad", "Turku",
+      "Kristiansand", "Narvik", "Hammerfest", "Hudsonia", "Vinland"
+    ],
+    "spyNames": ["Bjorn", "Astrid", "Sven", "Ingrid", "Erik", "Freya", "Olaf", "Sigrid", "Harald", "Solveig"]
+  }
+
+  {
+    "name": "Hispanic Monarchy",
+    "leaderName": "Don Juan José I",
+    "adjective": ["Hispánico"],
+    "startBias": ["Coast", "Hill"],
+    "startIntroPart1": "Salve, Don Juan José I, soberano de la Monarquía Hispánica. Plus Ultra: más allá de las columnas de Hércules, vuestros reinos se extienden por los océanos, unidos por la fe, el comercio y la espada.",
+    "startIntroPart2": "Majestad, vuestros reinos aguardan de nuevo el amanecer de un imperio donde el sol nunca se pone. ¿Llevaréis la aurora más allá de todo límite?",
+    "declaringWar": "Habéis culminado con la paciencia de la Corona. los tercios y las armadas hablan ahora.",
+    "attacked": "¡Insensatos! La Monarquía Hispánica no olvida una ofenza NUNCA.",
+    "defeated": "Los reinos de España han visto caer imperios mayores. Recordadlo.",
+    "introduction": "Soy Don Juan José, soberano de la Monarquía Hispánica. Que el comercio y la fe nos unan, o que las armas decidan.",
+    "neutralHello": "¿Qué asunto os trae ante esta corte?",
+    "hateHello": "Hablad con cautela.",
+    "tradeRequest": "Este trato honra tanto a la Corona como a vuestro pueblo.",
+    "outerColor": [200, 146, 42],
+    "innerColor": [143, 0, 14],
+    "uniqueName": "Plus Ultra Auroram",
+    "uniques": [
+      "[+1 Gold, +1 Faith] [in all coastal cities]",
+      "[+1 Science, +1 Gold] from every [University]",
+      "[+1] Sight <for [Water] units>",
+      "[+1 Production, +1 Culture] from every [Iron]",
+      "[+1 Production, +1 Culture] from every [Coal]",
+      "[+1 Production, +1 Culture] from every [Aluminum]",
+      "[+1 Production, +1 Culture] from every [Uranium]"
+    ],
+    "cities": [
+      "Madrid", "Sevilla", "Lisboa", "Nápoles", "Bruselas",
+      "Toledo", "Barcelona", "Valencia", "Zaragoza", "Milán",
+      "Amberes", "Palermo", "Cádiz", "Burgos", "Valladolid",
+      "Cartagena de Indias", "Manyla", "Cerdeña", "Granada", "Pamplona"
+    ],
+    "spyNames": ["Rodrigo", "Catalina", "Fernando", "Beatriz", "Gonzalo", "Leonor", "Álvaro", "Constanza", "Diego", "Mencía"]
+  }
+  
+  {
+    "name": "Khazars",
+    "leaderName": "Bulan Bek",
+    "adjective": ["Jázaro"],
+    "startBias": ["Plains", "Grassland"],
+    "startIntroPart1": "Salve, Bulan Bek, Khagan Bek de los Jázaros. Entre el Volga y el Cáucaso, tu pueblo tejió un imperio de jinetes y mercaderes, cruce de caravanas de seda y fe entre el Islam, la Cristiandad y el Judaísmo.",
+    "startIntroPart2": "Khagan, la estepa aguarda de nuevo tus jinetes y tus caravanas. ¿Devolverás a los Jázaros su lugar entre dos mundos?",
+    "declaringWar": "Habéis colmado la paciencia del Khaganato. Que los arcos hablaran ahora.",
+    "attacked": "¡Insensatos! La estepa es superior a ustedes.",
+    "defeated": "Los ríos del Volga lloran por este agrio final.",
+    "introduction": "Soy Bulan, Bek de los Jázaros. Que la seda y la fe nos unan, o que las flechas claven tu corazón.",
+    "neutralHello": "¿Qué asunto os trae a la estepa?",
+    "hateHello": "Hablad con cautela, iluso.",
+    "tradeRequest": "Las caravanas jázaras se interezan en ti.",
+    "outerColor": [30, 40, 80],
+    "innerColor": [218, 165, 32],
+    "uniqueName": "Estepa y Seda",
+    "uniques": [
+      "[+1 Gold, +1 Faith] from each Trade Route",
+      "[+1 Production, +1 Culture] from every [Horses]",
+      "[+1 Production, +1 Culture] from every [Sheep]",
+      "[+15]% Strength <vs cities> <for [Mounted] units>"
+    ],
+    "cities": [
+      "Atil", "Samandar", "Balanjar", "Sarkel", "Khamlij",
+      "Jazarán", "Al-Bayda", "Suvar", "Bulgar", "Tmurtorokan",
+      "Doros", "Cherson", "Kerch", "Feodosia", "Chufut-Kale",
+      "Kara Tobe", "Begand", "Kaishva", "Hamidzh", "Chernigov"
+    ],
+    "spyNames": ["Bulan", "Serakh", "Obadiah", "Zoe", "Manasseh", "Kira", "Joseph", "Hanna", "Aaron", "Miriam"]
+  }
+
+  {
+    "name": "Vera Cruz do Monomotapa",
+    "leaderName": "Dom Sebastião I",
+    "adjective": ["Monomotapense"],
+    "startBias": ["Coast"],
+    "startIntroPart1": "Sub Cruce et Sub Sole — Bajo la Cruz y Bajo el Sol. Salve, Dom Sebastião, Rei do Vera Cruz do Monomotapa, puente entre el altiplano de Zimbabwe y las rutas del Índico. Vuestro reino nació de la mestiçagem: cristiano y ancestral, europeo y africano, cruzado y comerciante.",
+    "startIntroPart2": "Majestad, vuestro pueblo aguarda de nuevo esa dupla lealdade que sostuvo al reino a través de los siglos. ¿Reconstruiréis el puente entre dos mundos?",
+    "declaringWar": "Que los mhondoro y los santos testifiquen: no buscamos la guerra, pero no la tememos.",
+    "attacked": "Habéis derramado sangre sobre tierra sagrada. La cruz y la lanza responderán juntas.",
+    "defeated": "La cruz se apaga, pero el sol de África no se pone jamás.",
+    "introduction": "Somos el puente entre dos mundos. Bienvenido, viajero.",
+    "neutralHello": "Que la paz del Sol y de la Cruz os acompañe.",
+    "hateHello": "Hablad con cuidado en esta corte.",
+    "tradeRequest": "El oro y el marfil favorecen a quienes comercian con honestidad.",
+    "outerColor": [27, 77, 62],
+    "innerColor": [212, 175, 55],
+    "uniqueName": "Sub Cruce et Sub Sole",
+    "uniques": [
+    "[+1 Culture, +1 Faith] from every [Lighthouse]",
+    "[+1 Happiness] from every [Temple]",
+    "[+1 Gold] [in all coastal cities]",
+    "Units ignore terrain costs when moving into any tile with Hills"
+    ],
+    "cities": [
+      "Santa Cruz do Monomotapa", "Sofala", "Manica", "Báruè", "Masvingo",
+      "Sena", "Quelimane", "Tete", "Chinde", "Dande",
+      "Chidima", "Mbire", "Buzi", "Save", "Angoche",
+      "Nova Coimbra", "Vila de Manica", "Porto da Cruz", "Santa Maria de Sofala", "São Sebastião"
+    ],
+    "spyNames": ["Nyika", "Isabel", "Chiwoniso", "Vasco", "Tendai", "Beatriz", "Munashe", "Catarina", "Farai", "Leonor"]
+  }
+
+  {
+    "name": "Reino del Peru",
+    "leaderName": "Carlos I Francisco del Perú",
+    "adjective": ["Peruano"],
+    "startBias": ["Hill", "Coast"],
+    "startIntroPart1": "Salve, Carlos I Francisco, Rey del Perú, la Roma de América. Desde Lima, vuestra corte irradió gobierno, fe y comercio sobre el vasto territorio andino, tejiendo caminos, acueductos y puertos que unieron sierra y mar.",
+    "startIntroPart2": "Majestad, el reino aguarda vuestra mano para volver a ser el centro del nuevo mundo. ¿Levantaréis de nuevo a vuestro Reino?",
+    "declaringWar": "Habéis colmado la paciencia de la corona. No me queda mas opcion que la guerra.",
+    "attacked": "¡Insensatos! La Roma de América no se dobla ante amenazas.",
+    "defeated": "Los Andes no caeran por tus gritos nefastos ,este dia nunca sera olvidado.",
+    "introduction": "Soy Carlos, Rey del Perú. Que el comercio y la fe unan nuestros pueblos, sino que los ejercitos hablen.",
+    "neutralHello": "¿Qué asunto os trae ante esta corte?",
+    "hateHello": "Hablad con cautela, mi paciencia tiene límites.",
+    "tradeRequest": "Este trato honra tanto a vuestro pueblo como al mío.",
+    "outerColor": [144, 0, 32],
+    "innerColor": [255, 238, 140],
+    "uniqueName": "La Roma de América",
+    "uniques": [
+      "[+1 Faith] from every [Aqueduct]",
+      "[+1 Culture] from every [Pasture]",
+      "[+1 Gold] from every [Fishing Boats]"
+    ],
+    "cities": [
+      "Lima", "Cusco", "Arequipa", "Trujillo", "Cajamarca",
+      "Huamanga", "Huánuco", "Chachapoyas", "Piura", "Ica",
+      "Puno", "Chuquisaca", "Potosí", "La Paz", "Quito",
+      "Guayaquil", "Loja", "Tarma", "Jauja", "Moquegua"
+    ],
+    "spyNames": ["Manco", "Micaela", "Túpac", "Rosa", "Mateo", "Josefa", "Diego", "Inés", "Fernando", "Teresa"]
+  }
+
+  {
+    "name": "United Rus",
+    "leaderName": "Daniil Galitskiy",
+    "adjective": ["Ruso"],
+    "startBias": ["Grassland"],
+    "startIntroPart1": "Salve, Daniil Galitskiy, Príncipe de Halych-Volynia. Bajo tu mano, las tierras de la Rus, fragmentadas por el fuego mongol y las ambiciones de los boyardos, buscan de nuevo un destino común.",
+    "startIntroPart2": "Príncipe, tu pueblo aguarda que reúnas lo que la historia dispersó. ¿Forjarás la Sud'ba Rus, el destino común de todas las tierras rusas?\n\nСила не в мече — она в Боге",
+    "declaringWar": "Habéis agotado la paciencia de los príncipes. Que la espada corte tu cabeza.",
+    "attacked": "¡Insensatos! La Rus no olvida una afrenta.",
+    "defeated": "Las tierras de la Rus han visto caer invasores mayores. Recordadlo.",
+    "introduction": "Soy Daniil, Príncipe de la Rus unificada. Gobernante de tierras doradas, comerciemos o luchemos a vuestro criterio.",
+    "neutralHello": "¿Qué asunto os trae ante este consejo?",
+    "hateHello": "Hablad con cautela.",
+    "tradeRequest": "Este trato honra tanto a la Rus como a vuestro pueblo.",
+    "outerColor": [28, 67, 122],
+    "innerColor": [237, 182, 0],
+    "uniqueName": "Sud'ba Rus",
+    "uniques": [
+      "[+15]% Strength <vs [Mounted] units> <for [Melee] units>",
+      "[+1 Production, +1 Culture] from [Fresh Water] tiles [in all cities]",
+      "[+1 Gold] from every [Water Mill]",
+      "[+1 Faith, +1 Gold] from all [Temple] buildings"
+    ],
+    "cities": [
+      "Kiev", "Nóvgorod", "Vladimir", "Galich", "Smolensk",
+      "Chernigov", "Pskov", "Polotsk", "Volodímir-Volynski", "Minsk",
+      "Vilna", "Briansk", "Kursk", "Riazán", "Tver",
+      "Yaroslavl", "Rostov", "Lutsk", "Járkov", "Odesa"
+    ],
+    "spyNames": ["Vsevolod", "Yaroslavna", "Mstislav", "Predslava", "Sviatoslav", "Yevpraksia", "Rurik", "Anastasia", "Gleb", "Zvenislava"]
+  }
+
+  {
+    "name": "Tsardom of Russia",
+    "leaderName": "Pedro I Velíkiy",
+    "adjective": ["Ruso"],
+    "startBias": ["Tundra"],
+    "startIntroPart1": "Salve, Pedro I, Zar de todas las Rusias. Bajo tu mano, un reino aislado y atrasado se convirtió en una potencia europea: fundaste una nueva capital mirando a Occidente, reformaste el ejército y la administración, y viajaste de incógnito por Europa en tu Gran Embajada para aprender los secretos de la navegación y la industria.",
+    "startIntroPart2": "Zar, tu pueblo aguarda de nuevo tu voluntad de hierro y gran sabiduria. ¿Llevarás a Rusia una vez más a convertirse en una ventana hacia el futuro?",
+    "declaringWar": "Habéis puesto a prueba la paciencia del Zar. Que las tropas de Su Majestad os den una lección.",
+    "attacked": "¡Insensatos! Habéis despertado la ira de todas las Rusias.",
+    "defeated": "Un imperio no cae por una sola derrota. Recordad esto.",
+    "introduction": "Soy Pedro, Zar de Rusia. Que nuestras naciones prosperen, o que tiemblen ante mi ejército.",
+    "neutralHello": "¿Qué asunto os trae ante el trono?",
+    "hateHello": "Hablad rápido, mi paciencia no es infinita.",
+    "tradeRequest": "Este acuerdo beneficiará a ambos imperios, si sois lo bastante sabios para verlo.",
+    "outerColor": [3, 37, 102],
+    "innerColor": [255, 215, 0],
+    "uniqueName": "La Gran Embajada",
+    "uniques": [
+      "[-25]% maintenance on road & railroads",
+      "[+1 Science, +1 Gold] [in all coastal cities]"
+      "[+1 Food] [in all coastal cities]"
+    ],
+    "cities": [
+      "San Petersburgo", "Moscú", "Nóvgorod", "Kiev", "Vladímir", "Súzdal",
+      "Pskov", "Smolensk", "Riazán", "Tver", "Yaroslavl", "Arcángel",
+      "Astracán", "Kazán", "Rostov", "Vólogda", "Túla", "Vorónezh",
+      "Nizhni Nóvgorod", "Ekaterimburgo"
+    ],
+    "spyNames": ["Alexei", "Praskovia", "Fiodor", "Yekaterina", "Grigori", "Anastasia", "Mijaíl", "Irina", "Boris", "Natalia"]
+  }
+
+  {
+    "name": "Holy Roman Empire",
+    "leaderName": "Carlos V de Habsburgo",
+    "adjective": ["Imperial"],
+    "startBias": ["Grassland", "Hill"],
+    "startIntroPart1": "Salve, Carlos V de Habsburgo, en cuyos dominios el sol nunca se pone. El Sacro Imperio Romano Germánico, mosaico de príncipes, obispos y ciudades libres, aguarda un águila que las una bajo una sola corona.",
+    "startIntroPart2": "Emperador, los electores y las ciudades imperiales esperan vuestra palabra. ¿Alzaréis de nuevo el Reichsadler sobre toda la Cristiandad?",
+    "declaringWar": "Habéis agotado la paciencia del Emperador. Que las armas imperiales hablen ahora.",
+    "attacked": "¡Insensatos! El Imperio respondera con todo su poder.",
+    "defeated": "El águila imperial ha caído hoy, pero el Imperio ha sobrevivido a peores días.",
+    "introduction": "Soy Carlos, Emperador del Sacro Imperio Romano Germánico. Hablemos sobre la guerra o comerciemos a gusto.",
+    "neutralHello": "¿Qué asunto os trae ante esta corte imperial?",
+    "hateHello": "Hablad con cautela.",
+    "tradeRequest": "Este trato honra tanto al Imperio como a vuestro pueblo.",
+    "outerColor": [26, 26, 26],
+    "innerColor": [212, 175, 55],
+    "uniqueName": "Reichsadler",
+    "uniques": [
+      "[+1 Production] [in all cities connected to capital]",
+      "Resting point for Influence with City-States following this religion [30]",
+      "May choose [2] additional belief(s) of any type when [founding] a religion"
+    ],
+    "cities": [
+      "Aachen", "Frankfurt", "Wien", "Núremberg", "Kolonie",
+      "Mainz", "Trier", "Praga", "Lubeck", "Regensburg",
+      "Strasbourg", "Milán", "Hamburg", "Bremen", "Worms",
+      "Speyer", "Goslar", "Zúrich", "Lübeck", "Genua"
+    ],
+    "spyNames": ["Wilhelm", "Margarethe", "Konrad", "Hedwig", "Albrecht", "Kunigunde", "Heinrich", "Gertrud", "Ruprecht", "Adelheid"]
+  }
+
+  {
+    "name": "Ordensstaat",
+    "leaderName": "Hermann von Salza",
+    "adjective": ["Teutónico"],
+    "startBias": ["Coast", "Forest"],
+    "startIntroPart1": "Salve, Hermann von Salza, Gran Maestre de la Orden Teutónica. Entre los bosques y costas del Báltico, vuestros caballeros monjes llevan la cruz y la espada como un solo juramento.",
+    "startIntroPart2": "Gran Maestre, los hombres aguardan de nuevo vuestra orden. ¿Guiaréis al Ordensstaat hacia una nueva cruzada?",
+    "declaringWar": "Una Nueva Cruzada se alza, Rindete si sabes lo que te combiene.",
+    "attacked": "¡Der Tor! Tus ojos necios no miran mas alla de tu ego, abstente de las concecuencias .",
+    "defeated": "Los castillos del Báltico se alzan aun con nuestra derrota, el legado persistira.",
+    "introduction": "Soy Hermann, Gran Maestre del Ordensstaat. Que la fe nos una, o que una cruzada sea concevida.",
+    "neutralHello": "¿Qué asunto os trae ante esta Orden?",
+    "hateHello": "Hablad con cautela.",
+    "tradeRequest": "Este trato honra tanto a la Orden como a vuestro pueblo.",
+    "outerColor": [255, 255, 255],
+    "innerColor": [23, 21, 21],
+    "uniqueName": "Militia Christi",
+    "uniques": [
+      "Upon capturing a city, receive [1] times its [Faith] production as [Faith] immediately",
+      "When conquering an encampment, earn [15] Gold and recruit a Barbarian unit <with [70]% chance>",
+      "[-25]% maintenance costs <for [Military] units>",
+      "[+1 Faith] from every [Barracks]"
+    ],
+    "cities": [
+      "Malbork", "Königsberg", "Thorn", "Kulm", "Elbing",
+      "Danzig", "Riga", "Reval", "Dorpat", "Memel",
+      "Goldingen", "Mitau", "Fellin", "Narva", "Wesenberg",
+      "Allenstein", "Heilsberg", "Bartenstein", "Tapiau", "Insterburg"
+    ],
+    "spyNames": ["Konrad", "Adelheid", "Ludolf", "Brunhild", "Dietrich", "Irmgard", "Hartmann", "Ottilie", "Sigfrid", "Kunigunde"]
+  }
+
+]
