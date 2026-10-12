@@ -12,12 +12,12 @@
   }
 
   {
-    "name": "Cámara del Toisón de Oro",
+    "name": "Palais de la Toison d'Or",
     "replaces": "Amphitheater",
     "uniqueTo": "Burgundy",
-    "cost": 100,
+    "cost": 110,
     "requiredTech": "Drama and Poetry",
-    "culture": 2,
+    "culture": 3,
     "gold": 2,
     "happiness": 1,
     "uniques": ["Destroyed when the city is captured"]
@@ -39,17 +39,18 @@
   }
 
   {
-    "name": "Universidad de Al-Azhar",
+    "name": "University Al-Azhar",
     "replaces": "National College",
     "uniqueTo": "Egyptian Eyalet",
-    "cost": 250,
+    "cost": 150,
     "requiredTech": "Philosophy",
     "isNationalWonder": true,
     "percentStatBonus": { "science": 50 },
     "science": 3,
+    "culture": 1,
     "uniques": [
       "Only available <if [Library] is constructed in all [non-[Puppeted]] cities>",
-      "[+1 Culture, +1 Faith, +3 Happiness]",
+      "[+1 Faith, +2 Happiness]",
       "Cost increases by [20] per owned city",
       "Free Technology"
     ]
@@ -62,7 +63,7 @@
     "cost": 200,
     "maintenance": 1,
     "requiredTech": "Banking",
-    "production": 4,
+    "production": 2,
     "happiness": 1,
     "gold": 2,
     "food": 1,
@@ -84,7 +85,7 @@
   }
 
   {
-    "name": "Tienda del Khagan",
+    "name": "Ordu Funduq",
     "replaces": "Market",
     "uniqueTo": "Khazars",
     "cost": 100,
@@ -99,7 +100,7 @@
   }
 
   {
-    "name": "Catedral de Vera Cruz",
+    "name": "Catedral do Vera Cruz",
     "replaces": "Temple",
     "uniqueTo": "Vera Cruz do Monomotapa",
     "cost": 100,
@@ -122,15 +123,16 @@
     "uniques": [
       "Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
       "[+25]% Great Person generation [in this city]",
-      "[+1 Gold]",
+      "[+5 Gold]",
       "[+10]% [Production]"
     ]
   }
 
   {
-    "name": "Consejo de Príncipes",
+    "name": "Rada Knyaziv",
     "replaces": "Palace",
     "uniqueTo": "United Rus",
+    "isNationalWonder": true,
     "cost": 0,
     "production": 4,
     "gold": 3,
@@ -138,16 +140,14 @@
     "culture": 2,
     "happiness": 1,
     "cityStrength": 2.5,
-    "uniques": [
-      "[-5]% Culture cost of adopting new Policies"
-    ]
+    "uniques": ["Indicates the capital city"]
   }
 
   {
-    "name": "Forja de Tula",
+    "name": "Tul'skaya Kuznitza",
     "replaces": "Workshop",
     "uniqueTo": "Tsardom of Russia",
-    "cost": 110,
+    "cost": 120,
     "maintenance": 2,
     "requiredTech": "Metal Casting",
     "production": 4,
@@ -156,8 +156,9 @@
       "Engineer": 2
     },
     "hurryCostModifier": 25,
+    "percentStatBonus": {"production": 10},
     "uniques": [
-      "[+10]% Production when constructing [Gunpowder] units [in this city]"
+      "[+15]% Production when constructing [Gunpowder] units [in this city]"
     ]
   }
 
@@ -171,7 +172,6 @@
     "cityStrength": 7,
     "culture": 1,
     "faith": 1,
-    "gold": 1,
     "production": 1,
     "uniques": [
       "[+10]% Production when constructing [Mounted] units [in this city]",
@@ -183,7 +183,7 @@
     "name": "Marienburg",
     "replaces": "Heroic Epic",
     "uniqueTo": "Ordensstaat",
-    "cost": 140,
+    "cost": 220,
     "requiredTech": "Iron Working",
     "requiredBuilding": "Barracks",
     "isNationalWonder": true,
@@ -192,7 +192,140 @@
     "culture": 2,
     "faith": 2,
     "uniques": [
-      "[Military] units gain the [Morale] promotion"
+      "Only available <if [Walls] is constructed in all [non-[Puppeted]] cities>",
+      "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion"
+    ]
+  }
+  {
+    "name": "Makarantar",
+    "replaces": "Library",
+    "uniqueTo": "Zazzau",
+    "cost": 100,
+    "requiredTech": "Writing",
+    "science": 2,
+    "culture": 1,
+    "faith": 1,
+    "specialistSlots": {
+      "Scientist": 1
+    }
+  }
+  {
+    "name": "Congreso de Naciones",
+    "replaces": "Hermitage",
+    "uniqueTo": "Mexican Empire",
+    "cost": 220,
+    "requiredTech": "Archaeology",
+    "requiredBuilding": "Museum",
+    "isNationalWonder": true,
+    "culture": 3,
+    "gold": 2,
+    "science": 2,
+    "percentStatBonus": { "culture": 25 }
+    "uniques": [
+      "[+15]% Great Person generation [in this city]",
+      "Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>",
+      "[+5]% [Production] [in this city]"
+    ]
+  }
+  {
+    "name": "Osgrog",
+    "replaces": "Castle",
+    "uniqueTo": "Alaskia",
+    "cost": 120,
+    "maintenance": 2,
+    "requiredTech": "Chivalry",
+    "requiredBuilding": "Walls",
+    "cityHealth": 22,
+    "cityStrength": 4,
+    "production": 1,
+    "faith": 1,
+    "uniques": [
+      "[+2 Gold] from [Furs] tiles [in this city]",
+      "Destroyed when the city is captured"
+    ]
+  }
+  {
+    "name": "Moinho",
+    "replaces": "Workshop",
+    "uniqueTo": "Brazilian Empire",
+    "cost": 150,
+    "maintenance": 2,
+    "requiredTech": "Metal Casting",
+    "production": 2,
+    "food": 1,
+    "percentStatBonus": { "production": 10 },
+    "specialistSlots": { "Engineer": 1 },
+    "uniques": [
+      "[+2 Food] [in this city] <after discovering [Fertilizer]>",
+      "[+1 Culture] [in this city] <after discovering [Fertilizer]>"
+    ]
+  }
+  {
+    "name": "Ruka",
+    "replaces": "Monument",
+    "uniqueTo": "Wallmapu",
+    "cost": 40,
+    "maintenance": 1,
+    "culture": 2,
+    "happiness": 1
+    "uniques": ["Destroyed when the city is captured"]
+  }
+  {
+    "name": "Opy",
+    "replaces": "Temple",
+    "uniqueTo": "Paraguay",
+    "cost": 90,
+    "maintenance": 3,
+    "requiredTech": "Philosophy",
+    "requiredBuilding": "Shrine",
+    "faith": 2,
+    "culture": 1,
+    "happiness": 1,
+    "uniques": [
+      "[+1 Culture] from [Jungle] tiles [in this city]",
+      "Destroyed when the city is captured"
+    ]
+  }
+  {
+    "name": "La Trinitaria",
+    "replaces": "Monument",
+    "uniqueTo": "Quisqueya",
+    "cost": 40,
+    "maintenance": 1,
+    "culture": 2,
+    "uniques": [
+      "[-10]% Culture cost of natural border growth [in this city]"
+    ]
+  }
+  {
+    "name": "Ceca",
+    "replaces": "Bank",
+    "uniqueTo": "Nueva Granada",
+    "cost": 220,
+    "requiredTech": "Banking",
+    "requiredBuilding": "Market",
+    "gold": 1,
+    "production": 1,
+    "science": 1,
+    "percentStatBonus": { "gold": 25 },
+    "uniques": [
+      "[+1 Gold] from every [Mine]"
+    ]
+  }
+  {
+    "name": "Estancia",
+    "replaces": "Granary",
+    "uniqueTo": "Rio de la Plata",
+    "cost": 60,
+    "food": 2,
+    "production": 1,
+    "maintenance": 1,
+    "uniques": [
+      "[+1 Food] from every [Cattle]",
+      "[+1 Food] from every [Sheep]",
+      "[+1 Food] from [Deer] tiles [in this city]",
+      "[+1 Food] from [Wheat] tiles [in this city]"
+      
     ]
   }
 ]

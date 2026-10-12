@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Academia de la Libertad",
+    "uniqueTo": "Nueva Granada",
+    "terrainsCanBeBuiltOn": ["Grassland", "Plains", "Hill"],
+    "science": 3,
+    "culture": 2,
+    "uniques": ["Great Improvement"]
+  }
+]
