@@ -49,7 +49,7 @@
     "uniqueName": "États Généraux",
     "uniques": [
       "[+2 Gold, +1 Culture] [in all cities connected to capital]",
-      "[-18]% Culture cost of adopting new Policies",
+      "[-15]% Culture cost of adopting new Policies",
      ],
     "cities": [
       "Bruselas", "Gante", "Brujas", "Dijon", "Amberes", "Lille", "Malinas", "Tournai",
@@ -108,7 +108,7 @@
     "innerColor": [255, 214, 51],
     "uniqueName": "Umm al-Dunya",
     "uniques": [
-      "[+1 Production, +1 Food] from [River] tiles [in all cities]",
+      "[+1 Food] from [River] tiles [in all cities]",
       "[+2 Gold] from [Oasis] tiles [in all cities]"
     ],
     "cities": [
@@ -301,10 +301,10 @@
       "[+1 Faith, +1 Gold] from all [Temple] buildings"
     ],
     "cities": [
-      "Kiev", "Nóvgorod", "Vladimir", "Galich", "Smolensk",
+      "Kyiv", "Stáraya Rus", "Valdái", "Galich", "Pestovo",
       "Chernigov", "Pskov", "Polotsk", "Volodímir-Volynski", "Minsk",
       "Vilna", "Briansk", "Kursk", "Riazán", "Tver",
-      "Yaroslavl", "Rostov", "Lutsk", "Járkov", "Odesa"
+      "Pereyáslav", "Túrov", "Lutsk", "Járkov", "Odesa"
     ],
     "spyNames": ["Vsevolod", "Yaroslavna", "Mstislav", "Predslava", "Sviatoslav", "Yevpraksia", "Rurik", "Anastasia", "Gleb", "Zvenislava"]
   }
@@ -332,8 +332,8 @@
       "[-20]% maintenance costs <for [Land] units>"
     ], 
     "cities": [
-      "San Petersburgo", "Moscú", "Nóvgorod", "Kiev", "Vladímir", "Súzdal",
-      "Pskov", "Smolensk", "Riazán", "Tver", "Yaroslavl", "Arcángel",
+      "San Petersburgo", "Moscú", "Borovichi", "Kiev", "Vladímir", "Súzdal",
+      "Múrom", "Smolensk", "Riazán", "Tver", "Yaroslavl", "Arcángel",
       "Astracán", "Kazán", "Rostov", "Vólogda", "Túla", "Vorónezh",
       "Nizhni Nóvgorod", "Ekaterimburgo"
     ],
@@ -420,8 +420,7 @@
     "innerColor": [0, 122, 53],
     "uniqueName": "Ganuwar Amina",
     "uniques": [
-      "Upon capturing a city, receive [2] times its [Gold] production as [Gold] immediately",
-      "Upon capturing a city, receive [2] times its [Faith] production as [Faith] immediately",
+      "Upon capturing a city, receive [3] times its [Gold] production as [Gold] immediately",
       "[+1 Faith] from every [Walls]",
       "[+20]% Production when constructing [Mounted] units [in capital]"
     ],
@@ -513,7 +512,9 @@
     "uniqueName": "Mãe do Amazonas",
     "uniques": [
       "[+1 Production, +2 Culture] from [Jungle] tiles [in all cities]",
-      "[+1 Culture] from [Lumber mill] tiles [in all cities]"
+      "[+1 Culture] from [Lumber mill] tiles [in all cities]",
+      "Free [Seringueiro] appears <upon entering a new era>",
+      "Free [Seringueiro] appears <upon entering a new era>"
     ],
     "cities": [
       "Río de Janeiro", "São Paulo", "Salvador", "Brasília", "Belo Horizonte",
@@ -545,8 +546,9 @@
     "uniqueName": "Guerra de Arauco",
     "uniques": [
       "[+25]% Strength <for [Melee] units> <when fighting in [Forest] tiles>",
-      "[+1 Culture] from [Forest] tiles [in all cities]",
-      "All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."
+      "[+10]% Strength <for [Melee] units> <when fighting in [Hill] tiles>",
+      "[+1 Culture] from [Forest] tiles [in all cities]"
+      
     ],
     "cities": [
       "Temuco", "Valdivia", "Osorno", "Puerto Montt", "Villarrica",
@@ -633,9 +635,9 @@
     "innerColor": [0, 51, 153],
     "uniqueName": "Unión Granadina",
     "uniques": [
-      "[+1 Gold, +1 Production] [in all cities connected to capital]",
-      "[Great General] is earned [+40]% faster",
-      "[+15]% Strength <for [Melee] units> <when fighting in [Friendly Land] tiles>"
+      "[Great General] is earned [+35]% faster",
+      "Free [Great General] appears <upon conquering a city>"
+      
     ],
     "cities": [
       "Santafé de Bogotá", "Cartagena de Indias", "Quito", "Popayán", "Tunja",
