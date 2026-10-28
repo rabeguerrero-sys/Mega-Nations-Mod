@@ -136,18 +136,18 @@
     "tradeRequest": "Este trato honra tanto al Norte como a vuestro pueblo.",
     "outerColor": [44, 58, 77],
     "innerColor": [212, 175, 55],
-    "uniqueName": "Lagom-hygge-Norgje",
+    "uniqueName": "Settlers of Nord",
     "uniques": [
       "Enables embarkation for land units",
-      "Units ignore terrain costs when moving into any tile with Hills",
-      "[+2 Food] from every [Fish]"
+      "[+15]% [Food] [in all cities connected to capital]"
+      "[+1 Food, +1 Gold] from every [Fish]"
       
     ],
     "cities": [
       "Nýkalmar", "Copenhague", "Estocolmo", "Oslo", "Reykjavík",
       "Bergen", "Göteborg", "Malmö", "Århus", "Trondheim",
       "Helsingør", "Uppsala", "Lund", "Midnattstad", "Turku",
-      "Kristiansand", "Narvik", "Hammerfest", "Hudsonia", "Vinland"
+      "Kristiansand", "Narvik", "Hammerfest", "Hudsonia", "Vinlaordnd"
     ],
     "spyNames": ["Bjorn", "Astrid", "Sven", "Ingrid", "Erik", "Freya", "Olaf", "Sigrid", "Harald", "Solveig"]
   }
@@ -200,10 +200,10 @@
     "innerColor": [218, 165, 32],
     "uniqueName": "Khazar Yolu",
     "uniques": [
-      "[+1 Gold, +1 Faith] from each Trade Route",
-      "[+1 Production, +1 Culture] from every [Horses]",
-      "[+1 Production, +1 Culture] from every [Sheep]",
-      "[+15]% Strength <vs cities> <for [Mounted] units>"
+      "[+2 Faith] from each Trade Route",
+      "[Mounted] units gain the [Sentry] promotion"
+      
+      
     ],
     "cities": [
       "Atil", "Samandar", "Balanjar", "Sarkel", "Khamlij",
@@ -232,10 +232,9 @@
     "innerColor": [212, 175, 55],
     "uniqueName": "Sub Cruce et Sub Sole",
     "uniques": [
-    "[+1 Culture, +1 Faith] from every [Lighthouse]",
     "[+1 Happiness] from every [Temple]",
-    "[+1 Gold] [in all coastal cities]",
-    "Units ignore terrain costs when moving into any tile with Hills"
+    "[+25]% Production when constructing [Water] units [in all cities]"
+    
     ],
     "cities": [
       "Santa Cruz do Monomotapa", "Sofala", "Manica", "Báruè", "Masvingo",
@@ -295,10 +294,8 @@
     "innerColor": [237, 182, 0],
     "uniqueName": "Sud'ba Rus",
     "uniques": [
-      "[+15]% Strength <vs [Mounted] units> <for [Melee] units>",
-      "[+1 Production, +1 Culture] from [Fresh Water] tiles [in all cities]",
-      "[+1 Gold] from every [Water Mill]",
-      "[+1 Faith, +1 Gold] from all [Temple] buildings"
+      "[+15]% Strength <vs [Mounted] units> <for [Sword] units>",
+      "[+1 Gold] from [Fresh Water] tiles [in all cities]"
     ],
     "cities": [
       "Kyiv", "Stáraya Rus", "Valdái", "Galich", "Pestovo",
@@ -360,7 +357,7 @@
     "uniques": [
       "[+1 Production] [in all cities connected to capital]",
       "Resting point for Influence with City-States following this religion [30]",
-      "May choose [2] additional belief(s) of any type when [enhancing] a religion"
+      "May choose [1] additional belief(s) of any type when [enhancing] a religion"
     ],
     "cities": [
       "Aachen", "Frankfurt", "Wien", "Núremberg", "Kolonie",
@@ -389,9 +386,8 @@
     "innerColor": [23, 21, 21],
     "uniqueName": "Militia Christi",
     "uniques": [
-      "Upon capturing a city, receive [1] times its [Faith] production as [Faith] immediately",
-      "When conquering an encampment, earn [15] Gold and recruit a Barbarian unit <with [70]% chance>",
-      "[-25]% maintenance costs <for [Military] units>",
+      "Upon capturing a city, receive [2] times its [Faith] production as [Faith] immediately",
+      "May buy [Land] units with [Faith] for [1] times their normal Production cost"
       "[+1 Faith] from every [Barracks]"
     ],
     "cities": [
@@ -545,8 +541,8 @@
     "innerColor": [100, 200, 100],
     "uniqueName": "Guerra de Arauco",
     "uniques": [
-      "[+25]% Strength <for [Melee] units> <when fighting in [Forest] tiles>",
-      "[+10]% Strength <for [Melee] units> <when fighting in [Hill] tiles>",
+      "[+25]% Strength <for [Sword] units> <when fighting in [Forest] tiles>",
+      "[+10]% Strength <for [Sword] units> <when fighting in [Hill] tiles>",
       "[+1 Culture] from [Forest] tiles [in all cities]"
       
     ],
@@ -665,7 +661,7 @@
     "innerColor": [255, 240, 200],
     "uniqueName": "Economía de la Pampa",
     "uniques": [
-      "[+2 Production, +1 Food] from every [Pasture]",
+      "[+2 Production, +1 Food] from all [Stable] buildings",
       "[+3 Gold] from every [Cattle]"
     ],
     "cities": [
@@ -675,6 +671,38 @@
       "Santiago del Estero", "Catamarca", "La Rioja", "Santa Cruz de la Sierra", "Colonia del Sacramento"
     ],
     "spyNames": ["Iván", "Remedios", "Manuel", "Juana", "Cornelio", "Mariquita", "Martín", "Mariano", "Hipólito", "Rosa"]
+  }
+  {
+    "name": "Chile",
+    "leaderName": "Diego Portales",
+    "adjective": ["Chileno"],
+    "startBias": ["Coast", "Avoid Jungle"],
+    "startIntroPart1": "Salve, Diego Portales, organizador de Chile. No fundaste una dinastía, fundaste un Estado. No creaste un ejército, creaste una institución. Chile no es un país de caudillos: es un país de leyes, de orden y de disciplina. Y esa disciplina es la que nos hará grandes.",
+    "startIntroPart2": "Presidente, el Pacífico es nuestro destino. ¿Forjaréis la Patria con la disciplina del ejército y la riqueza del Mejor pais de Chile?, o dejaréis que otros se lleven la gloria?",
+    "declaringWar": "Chile no busca la guerra. Pero si la guerra llega, planificaremos tu muerte y velaremos a los caídos.",
+    "attacked": "¡Incauto! Habéis desafiado a la nación más disciplinada de América. Que Dios se apiade de vosotros.",
+    "defeated": "Chile cae, pero no avergonzada ni Humillada , Victoriosa por dar todo lo que pudo Ofrecer.",
+    "introduction": "Soy Diego Portales, el organizador de Chile. Mi país no es el más grande, ni el más rico, pero es el más disciplinado. ¿Qué os trae a nuestra costa?",
+    "neutralHello": "¿Qué asunto os trae a Chile?",
+    "hateHello": "Hablad rápido, extranjero. Tenemos un país que organizar.",
+    "tradeRequest": "El comercio engrandece a ambas naciones. Aceptad este trato, y Chile os recordará con respeto.",
+    "outerColor": [184, 184, 184],
+    "innerColor": [25, 25, 112],
+    "uniqueName": "La Prusia de América",
+    "uniques": [
+      "[+25]% Production when constructing [{Military} {Land}] units [in all cities] <while the empire is happy>",
+      "[+2 Production, +3 Gold] from [Quarry] tiles [in all cities]"
+    ],
+    "cities": [
+      "Santiago", "Valparaíso", "Concepción", "La Serena", "Antofagasta",
+      "Iquique", "Talca", "Temuco", "Valdivia", "Osorno",
+      "Puerto Montt", "Punta Arenas", "Copiapó", "Chillán", "Rancagua",
+      "San Antonio", "Calama", "Arica", "Coyhaique", "Los Andes"
+    ],
+    "spyNames": [
+      "Arturo", "Bernardo", "Manuel", "José", "Ramón",
+      "Garmendia", "Caupolicán", "Galvarino", "O'Higgins", "Carrera"
+    ]
   }
 
 ]

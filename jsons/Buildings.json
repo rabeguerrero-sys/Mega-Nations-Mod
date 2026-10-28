@@ -42,7 +42,7 @@
     "name": "University Al-Azhar",
     "replaces": "National College",
     "uniqueTo": "Egyptian Eyalet",
-    "cost": 150,
+    "cost": 120,
     "requiredTech": "Philosophy",
     "isNationalWonder": true,
     "percentStatBonus": { "science": 50 },
@@ -61,13 +61,10 @@
     "replaces": "Bank",
     "uniqueTo": "Scandinavia",
     "cost": 200,
-    "maintenance": 1,
     "requiredTech": "Banking",
     "production": 2,
-    "happiness": 1,
     "gold": 2,
-    "food": 1,
-    "percentStatBonus": { "gold": 25 },
+    "percentStatBonus": { "gold": 30 },
     "uniques": []
   }
 
@@ -94,9 +91,6 @@
     "faith": 1,
     "culture": 1,
     "percentStatBonus": { "gold": 25 }
-    "uniques": [
-      "[+20]% [Gold] [in this city]"
-    ]
   }
 
   {
@@ -104,12 +98,13 @@
     "replaces": "Temple",
     "uniqueTo": "Vera Cruz do Monomotapa",
     "cost": 100,
-    "maintenance": 1,
-    "faith": 2,
+    "maintenance": 2,
+    "science": 2,
+    "faith": 1,
     "culture": 1,
     "requiredTech": "Philosophy",
     "uniques": [
-      "[+1 Happiness] [in this city]"
+      "Destroyed when the city is captured"
     ]
   }
  
@@ -124,7 +119,7 @@
       "Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>",
       "[+25]% Great Person generation [in this city]",
       "[+5 Gold]",
-      "[+10]% [Production]"
+      "[+10]% [Gold]"
     ]
   }
 
@@ -183,17 +178,17 @@
     "name": "Marienburg",
     "replaces": "Heroic Epic",
     "uniqueTo": "Ordensstaat",
-    "cost": 220,
+    "cost": 90,
     "requiredTech": "Iron Working",
     "requiredBuilding": "Barracks",
     "isNationalWonder": true,
-    "maintenance": 1,
     "cityStrength": 5,
     "culture": 2,
     "faith": 2,
     "uniques": [
       "Only available <if [Walls] is constructed in all [non-[Puppeted]] cities>",
-      "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion"
+      "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
+      "Cost increases by [30] per owned city"
     ]
   }
   {
@@ -202,7 +197,7 @@
     "uniqueTo": "Zazzau",
     "cost": 100,
     "requiredTech": "Writing",
-    "science": 2,
+    "science": 4,
     "culture": 1,
     "faith": 1,
     "specialistSlots": {
@@ -264,17 +259,16 @@
     "name": "Ruka",
     "replaces": "Monument",
     "uniqueTo": "Wallmapu",
-    "cost": 40,
-    "maintenance": 1,
+    "cost": 30,
+    "maintenance": 0,
     "culture": 2,
-    "happiness": 1
     "uniques": ["Destroyed when the city is captured"]
   }
   {
     "name": "Opy",
     "replaces": "Temple",
     "uniqueTo": "Paraguay",
-    "cost": 90,
+    "cost": 100,
     "maintenance": 3,
     "requiredTech": "Philosophy",
     "requiredBuilding": "Shrine",
@@ -294,7 +288,8 @@
     "maintenance": 1,
     "culture": 2,
     "uniques": [
-      "[-10]% Culture cost of natural border growth [in this city]"
+      "[-10]% Culture cost of natural border growth [in this city]",
+      "Destroyed when the city is captured"
     ]
   }
   {
@@ -326,6 +321,20 @@
       "[+1 Food] from [Deer] tiles [in this city]",
       "[+1 Food] from [Wheat] tiles [in this city]"
       
+    ]
+  }
+  {
+    "name": "Escuela Militar",
+    "replaces": "Military Academy",
+    "uniqueTo": "Chile",
+    "cost": 250,
+    "maintenance": 2,
+    "requiredTech": "Military Science",
+    "requiredBuilding": "Armory",
+    "science": 1,
+    "uniques": [
+      "New [Military] units start with [25] XP [in this city]",
+      "Destroyed when the city is captured"
     ]
   }
 ]

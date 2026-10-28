@@ -5,7 +5,7 @@
     "replaces": "Cavalry",
     "uniqueTo": "Bavaria",
     "cost": 200,
-    "strength": 28,
+    "strength": 30,
     "movement": 5,
     "requiredTech": "Metallurgy",
     "obsoleteTech": "Combustion",
@@ -15,8 +15,7 @@
     "uniques": [
       "Can move after attacking",
       "[-33]% Strength <vs cities> <when attacking>",
-      "Never appears as a Barbarian unit",
-      "[+25]% Strength <vs [Mounted] units>"
+      "Never appears as a Barbarian unit"
     ]
   }
 
@@ -118,8 +117,8 @@
     "movement": 5,
     "requiredResource": "Iron",
     "requiredTech": "Navigation",
-    "obsoleteTech": "Combustion",
-    "upgradesTo": "Destroyer"
+    "obsoleteTech": "Electronics",
+    "upgradesTo": "Battleship"
   }
 
   {
@@ -128,15 +127,17 @@
     "replaces": "Knight",
     "uniqueTo": "Khazars",
     "cost": 120,
-    "strength": 18,
+    "strength": 17,
     "rangedStrength": 18,
     "range": 2,
     "movement": 5,
     "requiredTech": "Chivalry",
     "obsoleteTech": "Military Science",
     "upgradesTo": "Cavalry",
+    "requiredResource": "Horses",
     "uniques": [
-      "[+15]% Strength <vs cities>",
+      "Can move after attacking",
+      "No defensive terrain bonus",
       "[+15]% Strength <vs [Mounted] units>"
     ]
   }
@@ -152,9 +153,8 @@
     "movement": 3,
     "requiredTech": "Steel",
     "obsoleteTech": "Rifling",
-    "upgradesTo": "Rifleman",
+    "upgradesTo": "Musketman",
     "uniques": [
-      "[+33]% Strength <vs cities>",
       "Can move after attacking"
     ]
   }
@@ -165,8 +165,8 @@
     "replaces": "Gatling Gun",
     "uniqueTo": "Reino del Peru",
     "cost": 225,
-    "strength": 37,
-    "rangedStrength": 37,
+    "strength": 32,
+    "rangedStrength": 32,
     "range": 1,
     "movement": 2,
     "requiredTech": "Industrialization",
@@ -188,8 +188,8 @@
     "movement": 5,
     "requiredResource": "Iron"
     "requiredTech": "Navigation",
-    "obsoleteTech": "Combustion",
-    "upgradesTo": "Destroyer",
+    "obsoleteTech": "Electronics",
+    "upgradesTo": "Battleship",
     "promotions": ["Indirect Fire"]
   }
 
@@ -199,16 +199,16 @@
     "replaces": "Knight",
     "uniqueTo": "United Rus",
     "cost": 120,
-    "strength": 20,
-    "movement": 5,
+    "strength": 18,
+    "movement": 4,
     "requiredTech": "Chivalry",
     "obsoleteTech": "Military Science",
     "upgradesTo": "Cavalry",
     "requiredResource": "Horses",
     "uniques": [
       "Can move after attacking",
-      "[+25]% Strength <vs [Mounted] units>",
-      "[+15]% Strength <in [Friendly Land] tiles>"
+      "[+15]% Strength <in [Friendly Land] tiles>",
+      "[-33]% Strength <vs cities> <when attacking>"
     ]
   }
 
@@ -293,11 +293,11 @@
     "requiredTech": "Metallurgy",
     "obsoleteTech": "Combined Arms",
     "upgradesTo": "Anti-Tank Gun",
+    "requiredResource": "Horses",
     "uniques": [
       "Can move after attacking",
       "No defensive terrain bonus",
-      "[+25]% Strength <vs [Mounted] units>",
-      "[+10]% Strength <vs [Gunpowder] units>"
+      "[+15]% Strength <vs [Gunpowder] units>"
     ]
   }
   {
@@ -323,32 +323,39 @@
     "unitType": "Gunpowder",
     "replaces": "Rifleman",
     "uniqueTo": "Brazilian Empire",
-    "cost": 200,
-    "strength": 28,
+    "cost": 225,
+    "strength": 30,
     "movement": 3,
     "requiredTech": "Rifling",
     "obsoleteTech": "Replaceable Parts",
     "upgradesTo": "Great War Infantry",
-    "promotions": ["Drill I", "Woodsman"],
+    "promotions": ["Woodsman"],
     "uniques": [
       "Can move after attacking"
     ]
   }
   {
+    "name": "Seringueiro",
+    "unitType": "Civilian",
+    "uniqueTo": "Brazilian Empire",
+    "movement": 2,
+    "uniques": [
+        "Turn this tile into a [Jungle] tile <by consuming this unit>",
+        "Unbuildable"
+    ]
+}
+  {
     "name": "Weichafe",
     "unitType": "Gunpowder",
     "replaces": "Musketman",
     "uniqueTo": "Wallmapu",
-    "cost": 200,
-    "strength": 28,
+    "cost": 180,
+    "strength": 26,
     "movement": 3,
     "requiredTech": "Gunpowder",
     "obsoleteTech": "Rifling",
     "upgradesTo": "Rifleman",
-    "promotions": ["Woodsman"],
-    "uniques": [
-      "Can move after attacking"
-    ]
+    "promotions": ["Woodsman"]
   }
   {
     "name": "Petyraí",
@@ -372,7 +379,7 @@
     "unitType": "Scout",
     "replaces": "Scout",
     "uniqueTo": "Quisqueya",
-    "cost": 50,
+    "cost": 30,
     "strength": 7,
     "movement": 2,
     "obsoleteTech": "Scientific Theory",
@@ -402,7 +409,7 @@
   }
   {
     "name": "Patricio",
-    "unitType": "Melee",
+    "unitType": "Gunpowder",
     "replaces": "Musketman",
     "uniqueTo": "Rio de la Plata",
     "cost": 130,
@@ -431,8 +438,26 @@
     "uniques": [
         "Can move after attacking",
         "No defensive terrain bonus",
-        "[-33]% Strength <vs [City]>",
+        "[-33]% Strength <vs cities> <when attacking>"
         
+    ]
+  }
+  {
+    "name": "Cochrane",
+    "unitType": "Ranged Water",
+    "replaces": "Frigate",
+    "uniqueTo": "Chile",
+    "cost": 200,
+    "strength": 26,
+    "rangedStrength": 28,
+    "range": 2,
+    "movement": 5,
+    "requiredTech": "Navigation",
+    "obsoleteTech": "Electronics",
+    "upgradesTo": "Battleship",
+    "requiredResource": "Iron",
+    "uniques": [
+      "Can move after attacking"
     ]
   }
 ]
